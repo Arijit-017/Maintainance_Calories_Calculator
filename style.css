@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.first-heading{
+    padding:.5rem;
+    margin-bottom: 1rem;
+    width: 100vw;
+    display: block;
+    text-align: center;
+    background-color: #ccc;
+}
+form{
+    /* padding-left: 100px; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-items: center;
+}
+.input-group{
+    padding: 0px 5rem;
+}
+
+#weight-guide{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    padding: 1rem;
+    width: 100vw;
+    display: block;
+    text-align: center;
+    background-color: #ccc;
+}
+#weight-guide p{
+    background-color: beige;
+    padding: 0.3rem;
+    border-radius: 10px;
+    color: darkslategrey;
+    size: 20px;
+}
+.bmi-category{
+    background-color: white;
+    padding: 0.3rem;
+    color:red;
+    font-weight: 900;
+    size: 20px;
+}
+#normal-weight{
+    color:green;
+}
+#drop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
